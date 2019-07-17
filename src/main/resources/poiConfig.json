@@ -1,0 +1,11 @@
+{
+  "apiUrl": "https://restapi.amap.com/v3/place/text",
+  "key": "7d1c5c34633eaa5c128e4985f3d347e0",
+  "outFilePath":"d:/PoiResult/",
+  "fileName": "PoiResult.csv",
+  "fileMaxRows": 60000,
+  "offset": "1000",
+  "configs": [
+    {"keyWords": "敬老院|养老院","types": "社会团体","city": "110112","cityLimit": "true","adname": "北京市通州区"}
+  ]
+}
