@@ -1,6 +1,6 @@
 {
   "apiUrl": "https://restapi.amap.com/v3/place/text",
-  "key": "7d1c5c34633eaa5c128e4985f3d347e0",
+  "key": "自己去高德开发者平台申请一个key",
   "outFilePath":"d:/PoiResult/",
   "fileName": "PoiResult.csv",
   "fileMaxRows": 60000,
