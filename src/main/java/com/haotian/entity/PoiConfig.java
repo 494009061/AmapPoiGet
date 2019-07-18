@@ -58,25 +58,8 @@ public class PoiConfig {
      * 无（全国范围内搜索）
      */
     private String city;
-    /**
-     * 仅返回指定城市数据
-     * <p>
-     * 可选值：true/false
-     */
-    private String cityLimit;
 
-    /**
-     * 城市-区
-     */
-    private String adname;
 
-    public String getAdname() {
-        return adname;
-    }
-
-    public void setAdname(String adname) {
-        this.adname = adname;
-    }
 
     public String getKeyWords() {
         return keyWords;
@@ -102,11 +85,4 @@ public class PoiConfig {
         this.city = city;
     }
 
-    public String getCityLimit() {
-        return cityLimit;
-    }
-
-    public void setCityLimit(String cityLimit) {
-        this.cityLimit = cityLimit;
-    }
 }

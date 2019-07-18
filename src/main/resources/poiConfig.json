@@ -1,11 +1,28 @@
 {
   "apiUrl": "https://restapi.amap.com/v3/place/text",
-  "key": "自己去高德开发者平台申请一个key",
-  "outFilePath":"d:/PoiResult/",
-  "fileName": "PoiResult.csv",
+  "key": "",
+  "outFilePath": "d:/PoiResult/",
+  "fileName": "poi-result",
   "fileMaxRows": 60000,
-  "offset": "1000",
+  "offset": "50",
   "configs": [
-    {"keyWords": "敬老院|养老院","types": "社会团体","city": "110112","cityLimit": "true","adname": "北京市通州区"}
+    {"keyWords": "敬老|养老|收容|收养|疗养", "types": "体育休闲服务|度假疗养场所|疗养院", "city": "110112"},
+    {"keyWords": "", "types": "090000", "city": "110112"},
+    {"keyWords": "", "types": "140000", "city": "110112"},
+    {"keyWords": "敬老|养老|收容|收养|疗养", "types": "体育休闲服务|度假疗养场所|疗养院", "city": "110109"},
+    {"keyWords": "", "types": "090000", "city": "110109"},
+    {"keyWords": "", "types": "140000", "city": "110109"},
+    {"keyWords": "敬老|养老|收容|收养|疗养", "types": "体育休闲服务|度假疗养场所|疗养院", "city": "110111"},
+    {"keyWords": "", "types": "090000", "city": "110111"},
+    {"keyWords": "", "types": "140000", "city": "110111"},
+    {"keyWords": "敬老|养老|收容|收养|疗养", "types": "体育休闲服务|度假疗养场所|疗养院", "city": "110113"},
+    {"keyWords": "", "types": "090000", "city": "110113"},
+    {"keyWords": "", "types": "140000", "city": "110113"},
+    {"keyWords": "敬老|养老|收容|收养|疗养", "types": "体育休闲服务|度假疗养场所|疗养院", "city": "110114"},
+    {"keyWords": "", "types": "090000", "city": "110114"},
+    {"keyWords": "", "types": "140000", "city": "110114"},
+    {"keyWords": "敬老|养老|收容|收养|疗养", "types": "体育休闲服务|度假疗养场所|疗养院", "city": "110115"},
+    {"keyWords": "", "types": "090000", "city": "110115"},
+    {"keyWords": "", "types": "140000", "city": "110115"}
   ]
 }
