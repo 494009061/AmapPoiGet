@@ -1,4 +1,7 @@
-# AmapPoiGet
+# AmapPoiGet 高德POI搜索实现 关键字搜索 城市代码搜索 分类搜索
+程序下载地址：
+链接：https://share.weiyun.com/5hgigg2
+
 spring boot jar 项目 用于获取 高德 poi 数据
 
 ```
